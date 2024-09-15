@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# List View (Multiple Posts):
+
+Data Fetching: Retrieves the most recent posts and categories from the API.
+Filtering: Implements category filtering using a select box, updating the API request dynamically.
+Rendering: Displays each post as a card with categories, thumbnail, title, and formatted date. Clicking a card navigates to the post's detail view.
+Pagination: Supports loading older posts by updating the API request with a page parameter.
+
+# Detail View (Single Post):
+Dynamic Routing: Uses React Router for routing based on post slug.
+Data Fetching: Fetches a single post's details including featured image, title, author, date, and content.
+
+# Responsive Design:
+CSS: Uses flexbox and media queries (@media) to ensure the layout adjusts smoothly across different screen sizes.
+Assumptions: Assumes basic understanding of React.js, API integration, and CSS for responsive web design. Simplifies error handling and focuses on core functionality without advanced features like state caching or complex animations.
